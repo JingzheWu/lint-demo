@@ -1,7 +1,7 @@
 {
   "name": "lint-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "前端代码规范化配置的 demo 工程",
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
@@ -14,8 +14,8 @@
     "commitlint": "commitlint --edit $1",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["eslint", "prettier", "husky", "lint-staged", "commitzen", "commit-lint"],
+  "author": "JingzheWu",
   "license": "ISC",
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
